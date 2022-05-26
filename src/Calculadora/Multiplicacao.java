@@ -7,6 +7,6 @@ public class Multiplicacao implements Calculo{
         for (int i = 0; i < numeros.length; i++) {
             resultado *=numeros[i];
         }
-        return numero[0];
+        return resultado;
     }
 }
