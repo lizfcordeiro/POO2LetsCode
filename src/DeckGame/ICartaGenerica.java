@@ -3,7 +3,7 @@ package DeckGame;
 public interface ICartaGenerica{
     String getNome();
 
-    int getTipo();
+    TipoDeCarta getTipo();
 
     public void getCusto();
 

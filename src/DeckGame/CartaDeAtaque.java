@@ -51,9 +51,9 @@ public class CartaDeAtaque implements ICartaGenerica{
     }
 
     @Override
-    public int getTipo() {
+    public TipoDeCarta getTipo() {
 
-        return 0;
+        return null;
     }
 
     @Override
