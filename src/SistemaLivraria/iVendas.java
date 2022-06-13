@@ -1,10 +1,10 @@
 package SistemaLivraria;
 
 public interface iVendas {
-    public void vendas(double valorProduto, int id, Livros livros){
-        public void vendasLivros(double valorProduto, int id, Livros livros){
-            if(valorProduto == livros.getPreco()){
-            }
-        }
+    public void vendasLivros(double valorProduto, Livros livros);
+    public void vendasFilmes(double valorProduto, Filmes filmes);
+    public void vendasGames(double valorProduto, Games games);
+    public void vendasAlbunsDeMusica(double valorProduto, AlbunsDeMusica albunsDeMusica);
+    public void vendasBrinquedos(double valorProduto, Brinquedos brinquedos);
+
     }
-}
